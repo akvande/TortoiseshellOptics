@@ -73,34 +73,114 @@ margin-left: 2rem;
 /* middle section */
 
 .middle-images{
-  width: 100%;
-  margin-top: 25.5rem;
+  margin:auto;
+  margin-top: 26.5rem;
+  padding-top: 3rem;
   display: flex;
   flex-direction: row;
-  padding-top: 3rem;
-  padding-bottom: 3rem;
+  justify-content: center;
   border: solid;
-  justify-content: space-around;
 }
-
-.middle-images p{
-  text-align: center;
-}
-
 .paper{
-  width: 3.5rem;
+  width:
   display: flex;
   flex-direction: column;
+  text-align: center;
+  border: solid;
+}
+.paper img{
+  margin: auto;
+  width: 3.5rem;
 }
 .ruler{
-  width: 5rem;
-  height:auto;
   display: flex;
   flex-direction: column;
-  align-items:center;
-  align-content: center;
+  border: solid;
+}
+
+.middle-images{
+  width: 50%;
+  height: auto;
+  margin-bottom: auto;
+  margin-top: 26.5rem;
+  padding-top: 3rem;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+.middle-images h5{
+  width:100%;
+  text-align: center;
+}
+.paper{
+  width: 30%;
+  height: 8rem;
+  display: block;
+  border: solid;
+}
+.paper img{
+  width: 3.5rem;
+  height: auto;
+  padding-top: 0;
+  display: block;
+  margin: 0 auto;
+}
+.ruler{
+  width: 30%;
+  height: 8rem;
+  display: block;
+  border: solid;
+}
+.ruler img{
+  width: 5rem;
+  height: auto;
+  padding-top: 0;
+  display: block;
+  margin: 0 auto;
 }
 .truck{
+  width: 30%;
+  height: 8rem;
+  display: block;
+  border: solid;
+}
+.truck img{
+  width: 5rem;
+  height: auto;
+  padding-top: 0;
+  display: block;
+  margin: 0 auto;
+  overflow: hidden;
+}
+.philosophy-appointments{
+  width: 100;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+.philosophy{
+  width: 35%;
+  margin-top: 3rem;
   display: flex;
   flex-direction: column;
+}
+.philosophy-appointments h3{
+  background-color: cadetblue;
+  color: white;
+  padding-left: 1.25rem;
+  padding-top: .5rem;
+  padding-bottom: .5rem;
+  margin-bottom: 0;
+}
+.appointments{
+  width: 35%;
+  margin-top: 3rem;
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+  display: flex;
+  flex-direction: column;
+}
+.philosophy-appointments p{
+margin-top: 0;
+padding-bottom: 0;
 }
