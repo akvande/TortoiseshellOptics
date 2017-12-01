@@ -73,35 +73,9 @@ margin-left: 2rem;
 /* middle section */
 
 .middle-images{
-  margin:auto;
-  margin-top: 26.5rem;
-  padding-top: 3rem;
-  display: flex;
-  flex-direction: row;
-  justify-content: center;
-  border: solid;
-}
-.paper{
-  width:
-  display: flex;
-  flex-direction: column;
-  text-align: center;
-  border: solid;
-}
-.paper img{
-  margin: auto;
-  width: 3.5rem;
-}
-.ruler{
-  display: flex;
-  flex-direction: column;
-  border: solid;
-}
-
-.middle-images{
-  width: 50%;
+  width: 24rem;
   height: auto;
-  margin-bottom: auto;
+  margin: auto;
   margin-top: 26.5rem;
   padding-top: 3rem;
   display: flex;
@@ -110,13 +84,15 @@ margin-left: 2rem;
 }
 .middle-images h5{
   width:100%;
+  height:3rem;
   text-align: center;
 }
 .paper{
-  width: 30%;
+  width: 8rem;
   height: 8rem;
+  padding-right: 0;
+  text-align: center;
   display: block;
-  border: solid;
 }
 .paper img{
   width: 3.5rem;
@@ -125,11 +101,15 @@ margin-left: 2rem;
   display: block;
   margin: 0 auto;
 }
+.paper h5{
+  padding-top: .5rem;
+}
 .ruler{
-  width: 30%;
+  width: 5rem;
   height: 8rem;
+  padding-right: 6rem;
+  padding-left: 4rem;
   display: block;
-  border: solid;
 }
 .ruler img{
   width: 5rem;
@@ -137,12 +117,16 @@ margin-left: 2rem;
   padding-top: 0;
   display: block;
   margin: 0 auto;
+  vertical-align: text-bottom;
+}
+.ruler h5{
+  padding-top: 2.25rem;
 }
 .truck{
-  width: 30%;
+  width: 5rem;
   height: 8rem;
+  padding-left: 0;
   display: block;
-  border: solid;
 }
 .truck img{
   width: 5rem;
@@ -151,6 +135,9 @@ margin-left: 2rem;
   display: block;
   margin: 0 auto;
   overflow: hidden;
+}
+.truck h5{
+  padding-top: 1.75rem;
 }
 .philosophy-appointments{
   width: 100;
