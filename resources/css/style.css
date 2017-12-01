@@ -1,3 +1,13 @@
+/* media styles */
+
+@media screen and (max-width: 1024px){
+  .site-container{
+  width: 100%;
+  margin: auto;
+  display: relative;
+  }
+}
+
 /* general styles */
 /* header image */
 html,
@@ -24,7 +34,6 @@ display: relative;
 .top-nav{
   margin: auto;
   margin-top: 1rem;
-  width: 960px;
   background-color: cadetblue;
   color: white;
   display: flex;
