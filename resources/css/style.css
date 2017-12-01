@@ -196,7 +196,8 @@ padding-bottom: 0;
 /* bottom section */
 
 .black-logo{
-  width: 70%;
+  width: 960px;
+  background-color: azure;
   margin: auto;
   display: flex;
   padding-top: 5rem;
