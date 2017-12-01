@@ -144,6 +144,9 @@ margin-left: 2rem;
 .truck h5{
   padding-top: 1.75rem;
 }
+
+/* philosophy-appointment section */
+
 .philosophy-appointments{
   width: 95%;
   margin:auto;
@@ -188,4 +191,22 @@ margin-left: 2rem;
 .philosophy-appointments p{
 margin-top: 0;
 padding-bottom: 0;
+}
+
+/* bottom section */
+
+.black-logo{
+  width: 70%;
+  margin: auto;
+  display: flex;
+  padding-top: 5rem;
+  padding-bottom: 4rem;
+}
+.black-logo img{
+  height:1.5rem;
+  padding-left: 4rem;
+  display: inline-flex;
+}
+.black-logo p{
+  padding-left: 1rem;
 }
