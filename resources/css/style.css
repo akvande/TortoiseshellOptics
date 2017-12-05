@@ -9,7 +9,7 @@ display: none;
 .column{
 display:none;
 }
-.black-logo p{
+.black-logo{
   display: none;
 }
 
@@ -208,7 +208,7 @@ padding-bottom: 4rem;
 
 /* bottom section */
 
-.black-logo{
+.black-logo-small{
   background-color: azure;
   margin: auto;
   display: flex;
@@ -239,6 +239,9 @@ display: none;
 display: flex;
 }
 .column-small{
+display: none;
+}
+.black-logo-small{
 display: none;
 }
 
@@ -458,7 +461,9 @@ display: none;
 .column-small{
 display: none;
 }
-
+.black-logo-small{
+display: none;
+}
 /* general styles */
 /* header image */
 html,
