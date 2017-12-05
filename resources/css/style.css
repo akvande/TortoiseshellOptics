@@ -1,57 +1,19 @@
 /* media styles */
 
 @media only screen and (max-width: 470px) {
-body{
-  margin: 0;
-  font-size: 18px;
-  font-family: helvetica;
-  line-height: 1.4;
-  }
-  .	header{
-  background-image: url('https://s3.amazonaws.com/codecademy-content/courses/freelance-1/unit-5/tortoiseshell-optics/resources/images/glasses-bg.png');
-  background-size: cover;
-  background-repeat: no-repeat;
-  height: 17rem;
-  width: auto;
-  }
-   	.site-container{
-      width: 100%;
-      margin: 0;
-      padding: 0;
-  }
-  	.site-container h1{
-  	 margin: auto;
-       margin-top: 9rem;
-  	 background-color: white;
-  	 display: flex;
-       padding: 1.5rem;
-  	 font-size: 1rem;
-  	 font-weight: bold;
-  	 line-height: 1.2;
-       text-align:center;
-  }
-      .top-nav{
+.header{
+	display: none;
+}
+}
+/*end media style screen adjust*/
 
-      top: 0;
-      width:100%;
-   }
-   .middle-images{
-    width: 24rem;
-    height: auto;
-    margin: auto;
-    margin-top: 26.5rem;
-    padding-top: 3rem;
-    padding-bottom: 0;
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between;
-  }
+@media screen and (min-width: 471px) and (max-width: 1024px) {
+
 }
 
+/*end media style screen adjust*/
 
-@media screen and <min-width: 470) and (max-width: 796px) {
 
-}
 
 /* general styles */
 /* header image */
@@ -79,6 +41,7 @@ display: relative;
   background-image: url('https://s3.amazonaws.com/codecademy-content/courses/freelance-1/unit-5/tortoiseshell-optics/resources/images/glasses-bg.png');
   background-size: cover;
   background-repeat: no-repeat;
+  background-position: 40% 50%;
 }
 
 /* header image text */
@@ -157,7 +120,6 @@ width: 8rem;
 .ruler{
 width: 5rem;
 height: 8rem;
-
 padding-right: 6rem;
 padding-left: 6rem;
 }
